@@ -47,16 +47,16 @@
       "executor": "@nrwl/web:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "kkbets:build",
+        "buildTarget": "worldcup-app:build",
         "hmr": true,
         "proxyConfig": "apps/kkbets/proxy.conf.json"
       },
       "configurations": {
         "development": {
-          "buildTarget": "kkbets:build:development"
+          "buildTarget": "worldcup-app:build:development"
         },
         "production": {
-          "buildTarget": "kkbets:build:production",
+          "buildTarget": "worldcup-app:build:production",
           "hmr": false
         }
       }

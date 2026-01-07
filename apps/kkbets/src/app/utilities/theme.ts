@@ -10,8 +10,15 @@ export const theme = {
       light: '#28282E'
     },
     accent: {
-      light: '#0BB659',
+      light: '#0BB659', // FIFA Green
       dark: '#175433'
+    },
+    worldCup: {
+      gold: '#FFD700',
+      blue: '#1e3c72',
+      lightBlue: '#2a5298',
+      silver: '#C0C0C0',
+      bronze: '#CD7F32'
     },
     font: {
       dark: '#B8B8B9',

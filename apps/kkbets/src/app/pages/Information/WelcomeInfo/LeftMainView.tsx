@@ -7,10 +7,10 @@ import Badge from '../../../components/Badge/Badge';
 function LeftMainView(): JSX.Element {
   return (
     <StyledLeftMainView>
-      <h1 className="title">Time for Euro 2020!</h1>
-      <img src={euroLogo} alt="logo euro" />
+      <h1 className="title">Time for FIFA 2026 World Cup!</h1>
+      
       <p className="description">
-        The time has come for the long-awaited euro 2020. Don't waste your time, and bet. Beat the rest of the players
+        The time has come for the long-awaited FIFA 2026 World Cup. Don't waste your time, and bet. Beat the rest of the players
         and become a football specialist!
       </p>
 

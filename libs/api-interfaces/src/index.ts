@@ -7,3 +7,4 @@ export * from './lib/Event';
 export * from './lib/UsersEvent';
 export * from './lib/Enums';
 export * from './lib/Coupon';
+export * from './lib/WorldCup';

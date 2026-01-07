@@ -4,7 +4,7 @@
   "projects": {
     "api": "apps/api",
     "api-interfaces": "libs/api-interfaces",
-    "kkbets": "apps/kkbets",
-    "kkbets-e2e": "apps/kkbets-e2e"
+    "worldcup-app": "apps/kkbets",
+    "worldcup-app-e2e": "apps/kkbets-e2e"
   }
 }

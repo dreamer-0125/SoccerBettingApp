@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "kkbets",
+  "npmScope": "fifa-worldcup-2026",
   "affected": {
     "defaultBase": "master"
   },
@@ -40,5 +40,5 @@
       }
     }
   },
-  "defaultProject": "kkbets"
+  "defaultProject": "worldcup-app"
 }

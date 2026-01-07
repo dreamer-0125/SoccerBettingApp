@@ -1,11 +1,11 @@
 {
-  "name": "kkbets",
+  "name": "fifa-worldcup-2026-betting",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
     "heroku-start": "node /app/dist/apps/api/main.js",
-    "build": "nx run-many --target=build --projects=kkbets,api --parallel=true",
+    "build": "nx run-many --target=build --projects=worldcup-app,api --parallel=true",
     "test": "nx test"
   },
   "private": true,

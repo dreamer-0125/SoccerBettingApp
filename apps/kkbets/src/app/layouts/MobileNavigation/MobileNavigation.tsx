@@ -9,32 +9,46 @@ function MobileNavigation(): JSX.Element {
     <StyledMobileNavigation>
       <nav>
         <ul>
-          <li>
-            <NavLink to="/">
+          {/* World Cup Home */}
+          <li className="world-cup-nav">
+            <NavLink to="/" title="World Cup Home">
               <i className="icon-home" />
+              <span className="nav-label">Home</span>
             </NavLink>
           </li>
+          
+          {/* My Bets */}
           <AuthDisplayOnlyWrapper>
             <li>
-              <NavLink to="/coupons">
+              <NavLink to="/coupons" title="My World Cup Bets">
                 <i className="icon-clipboard" />
+                <span className="nav-label">Bets</span>
               </NavLink>
             </li>
           </AuthDisplayOnlyWrapper>
+          
+          {/* Tournament Ranking */}
           <li>
-            <NavLink to="/ranking">
+            <NavLink to="/ranking" title="World Cup Leaderboard">
               <i className="icon-award" />
+              <span className="nav-label">Ranking</span>
             </NavLink>
           </li>
+          
+          {/* Live Chat */}
           <li>
-            <NavLink to="/chat">
+            <NavLink to="/chat" title="World Cup Chat">
               <i className="icon-chat" />
+              <span className="nav-label">Chat</span>
             </NavLink>
           </li>
+          
+          {/* User Profile */}
           <AuthDisplayOnlyWrapper>
             <li>
-              <NavLink to="/users">
+              <NavLink to="/users" title="My Profile">
                 <i className="icon-user" />
+                <span className="nav-label">Profile</span>
               </NavLink>
             </li>
           </AuthDisplayOnlyWrapper>

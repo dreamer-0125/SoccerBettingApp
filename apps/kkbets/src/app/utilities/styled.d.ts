@@ -1,4 +1,4 @@
-import 'styled-componets';
+import 'styled-components';
 
 declare module 'styled-components' {
   export interface DefaultTheme {
@@ -15,6 +15,13 @@ declare module 'styled-components' {
       accent: {
         light: string;
         dark: string;
+      };
+      worldCup: {
+        gold: string;
+        blue: string;
+        lightBlue: string;
+        silver: string;
+        bronze: string;
       };
       font: {
         light: string;

@@ -26,23 +26,35 @@ function LeftNavigation(props: LeftNavigationProps): JSX.Element {
   return (
     <div className="display-above-md">
       <StyledLeftNavigation>
-        <div className="left-nav-icon active">
-          <i className="icon-soccer-ball " onClick={(e) => changeCategory('football', e)} />
+        {/* World Cup Matches */}
+        <div className="left-nav-icon active" title="World Cup Matches">
+          <i className="icon-soccer-ball" onClick={(e) => changeCategory('football', e)} />
         </div>
+        
+        {/* My Bets */}
         <AuthDisplayOnlyWrapper>
-          <div className="left-nav-icon">
+          <div className="left-nav-icon" title="My World Cup Bets">
             <i className="icon-clipboard" onClick={(e) => changeCategory('coupons', e)} />
           </div>
         </AuthDisplayOnlyWrapper>
-        <div className="left-nav-icon">
+        
+        {/* Tournament Ranking */}
+        <div className="left-nav-icon" title="World Cup Leaderboard">
           <i className="icon-award" onClick={(e) => changeCategory('ranking', e)} />
         </div>
-        <div className="left-nav-icon">
+        
+        {/* Live Chat */}
+        <div className="left-nav-icon" title="World Cup Chat">
           <i className="icon-chat" onClick={(e) => changeCategory('chat', e)} />
         </div>
-        <div className="left-nav-icon">
+        
+        {/* Tournament Info */}
+        <div className="left-nav-icon" title="Tournament Information">
           <i className="icon-info-circled" onClick={(e) => changeCategory('info', e)} />
         </div>
+
+        {/* World Cup Indicator */}
+        <div className="world-cup-indicator">🏆</div>
       </StyledLeftNavigation>
       <LeftNavigationView activeContent={activeLeftContent} close={props.close} active={props.active} />
     </div>
